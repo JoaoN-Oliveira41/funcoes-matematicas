@@ -1,6 +1,6 @@
 {
   "name": "funcoes-matematicas",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Esse é um pacote para JavaScript e Node.js com funções matemáticas prontas, sejam elas de cálculo, conversão ou até mesmo verificação.",
   "main": "index.js",
   "scripts": {
@@ -25,7 +25,7 @@
     "equações",
     "conversões"
   ],
-  "author": "Miguel Riquelme",
+  "author": "Miguel Riquelme e João Nascimento",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/miguelrisquelme/funcoes-matematicas/issues"
