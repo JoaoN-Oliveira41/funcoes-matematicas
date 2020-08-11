@@ -1,8 +1,10 @@
 /**
- * Desenvolvido e mantido por Miguel Riquelme
+ * Desenvolvido e mantido por Miguel Riquelme e João Nascimento
  * 
  * Linkedin: miguelrisquelme ou Miguel Riquelme
  * Github: miguelrisquelme
+ * 
+ * GitHub: JoaoN-Oliveira41
  * 
  * Aperte CTRL + F para procurar pela palavra chave da função desejada
  * 
@@ -101,6 +103,39 @@ exports.calcularTermoGeralProgressãoAritmética = function(termoGeralDesejado, 
     return resposta;
 }
 
+// 17.
+exports.calcularBaskhara = function(numeroA, numeroB, numeroC){
+    let r = (numeroB * numeroB) - 4 * numeroA * numeroC;
+    let dA = 1, dB = 0;
+    for (var  i = 0; i < r; i++) {
+        dB = r / dA;
+        dA = (dB + dA) / 2;
+    }
+    let respostaX1 = -numeroB + dA / 2 * numeroA;
+    let respostaX2 = -numeroB - dB / 2 *numeroA;
+    return respostaX1, respostaX2;
+
+}
+
+// 18.
+exports.calcularVelocidadeEmFisicaCinematica = function(tempo, distancia){
+    let resposta = distancia / tempo;
+    return resposta;
+}
+
+// 19.
+exports.calcularTempoEmFisicaCinematica = function(velocidade, distancia){
+    let resposta = distancia / velocidade;
+    return resposta;
+}
+
+// 20.
+exports.calcularDistanciaEmFisicaCinematica = function(velocidade, tempo){
+    let resposta = velocidade * tempo;
+    return resposta;
+}
+
+
 // Funções de verificação
 
 // 1.
@@ -122,6 +157,21 @@ exports.verificarNumeroImpar = function(numero) {
         return resposta;
     } else {
         return resposta;
+    }
+}
+
+// 3.
+exports.verificarNumeroPrimo = function(numero){
+    for (let i = 1; i <= 9; i++) {
+        let resposta = numero % 2;
+        if(resposta == 0){
+            j++;
+        }if(j==2){
+            return true;
+        }else{
+            return false;
+        }
+        
     }
 }
 

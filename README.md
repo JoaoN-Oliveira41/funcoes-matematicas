@@ -15,8 +15,8 @@ Para saber dos parâmetros das funções, em caso da IDE não der suporte, basta
 3. Para fazer a conversão de um número, basta após o ponto escrever <b>converter</b> que irá aparecer todas as funções de conversão disponiveis no momento, e o valor que retornar é o convertido com base no número que estava de parâmetro.
 
 #### Quantas funções tem?
-- Calculo: 15
-- Verificação: 2
+- Calculo: 20
+- Verificação: 3
 - Conversão: 10
 
 #### Quais tem:
@@ -38,11 +38,16 @@ Para saber dos parâmetros das funções, em caso da IDE não der suporte, basta
 - Área do Circulo
 - Raiz Quadrada
 - Termo Geral da Progressão Aritmética
+- Bhaskara
+- Calcular Velocidade em Física Cinemática
+- Calcular Tempo em Física Cinemática
+- Calcular Distância em Física Cinemática
 
 ##### Verificação:
 
 - Numero Par
 - Numero Impar
+- Numero Primo
 
 ##### Conversão:
 
@@ -61,3 +66,4 @@ Para saber dos parâmetros das funções, em caso da IDE não der suporte, basta
 Caso encontre algum erro, favor reportar diretamente para mim que eu estarei fazendo os devidos reparos, obrigado!
 - Linkedin: @miguelrisquelme
 - Github: @miguelrisquelme
+- Github: @JoaoN-Oliveira41
