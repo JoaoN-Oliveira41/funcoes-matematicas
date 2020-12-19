@@ -175,6 +175,28 @@ exports.verificarNumeroPrimo = function(numero){
     }
 }
 
+// 4.
+
+exports.verificarNumeroDivisivelPorDois = function(numero){
+    resultado = numero % 2;
+    if(resultado == 0){
+        return true;
+    }else{
+        return false;
+    }
+}
+
+// 5.
+
+exports.verificiarNumeroDivisivelPorTres = function(numero){
+    resultado = numero % 3;
+    if(resultado == 0){
+        return true;
+    }else{
+        return false;
+    }
+}
+
 
 // Funções de conversão
 
@@ -226,4 +248,44 @@ exports.converterLitroParaMililitro = function(valorEmLitro){
 // 10.
 exports.converterMililitroParaLitro = function(valorEmMililitro){
     return valorEmMililitro / 1000;
+}
+
+// 11. 
+exports.converterDecilitroParaLitro = function(valorEmDecilitro){ 
+    return valorEmDecilitro / 10;
+}
+
+// 12. 
+exports.converterLitroParaDecilitro = function(valorEmLitro){ 
+    return valorEmLitro * 10;
+}
+
+// 13.
+exports.converterCentilitroParaLitro = function(valorEmCentilitro){
+    return valorEmCentilitro / 100;
+}
+
+// 14.
+exports.converterLitroParaCentilitro = function(valorEmLitro){
+    return valorEmLitro * 100;
+}
+
+// 15.
+exports.converterDecalitroParaLitro = function(valorEmDecalitro){
+    return valorEmDecalitro * 10; 
+}
+
+// 16. 
+exports.converterLitroParaDecalitro = function(valorEmLitro){ 
+    return valorEmLitro / 10;
+}
+
+// 17. 
+exports.converterHectolitroParaLitro = function(valorHectolitro){
+    return valorHectolitro * 100;
+}
+
+// 18.
+exports.converterLitroParaHectolitro = function(valorEmLitro){
+    return valorEmLitro / 100;
 }
