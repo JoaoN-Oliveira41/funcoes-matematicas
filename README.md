@@ -16,8 +16,8 @@ Para saber dos parâmetros das funções, em caso da IDE não der suporte, basta
 
 #### Quantas funções tem?
 - Calculo: 20
-- Verificação: 3
-- Conversão: 10
+- Verificação: 5
+- Conversão: 18
 
 #### Quais tem:
 
