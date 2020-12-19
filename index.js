@@ -289,3 +289,13 @@ exports.converterHectolitroParaLitro = function(valorHectolitro){
 exports.converterLitroParaHectolitro = function(valorEmLitro){
     return valorEmLitro / 100;
 }
+
+// 19. 
+exports.converterQuilolitroParaLitro = function(valorEmQuilolitro){
+    return valorEmQuilolitro * 1000;
+}
+
+// 20.
+exports.converterLitroParaQuilolitro = function(valorEmLitro){
+    return valorEmLitro / 1000;
+}

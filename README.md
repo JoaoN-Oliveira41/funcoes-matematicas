@@ -17,7 +17,7 @@ Para saber dos parâmetros das funções, em caso da IDE não der suporte, basta
 #### Quantas funções tem?
 - Calculo: 20
 - Verificação: 5
-- Conversão: 18
+- Conversão: 20
 
 #### Quais tem:
 
@@ -48,6 +48,8 @@ Para saber dos parâmetros das funções, em caso da IDE não der suporte, basta
 - Numero Par
 - Numero Impar
 - Numero Primo
+- Número Divisível por Dois
+- Número Divisível por Três
 
 ##### Conversão:
 
@@ -61,6 +63,16 @@ Para saber dos parâmetros das funções, em caso da IDE não der suporte, basta
 - km/h para m/s
 - Litro para Mililitro
 - Mililitro para Litro
+- Decilitro para Litro
+- Litro para Decilitro
+- Centilitro para Litro
+- Litro para Centilitro
+- Decalitro para Litro
+- Litro para Decalitro 
+- Hectolitro para Litro
+- Litro para Hectolitro
+- Quilolitro para Litro
+- Litro para Quilolitro
 
 #### Contato:
 Caso encontre algum erro, favor reportar diretamente para mim que eu estarei fazendo os devidos reparos, obrigado!
